@@ -51,11 +51,11 @@ On the browser, with the URL localhost, the screen will appear as follows:
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/phpadmin1.png)
 
 Create a new database with the following steps:
-1. Select New, then enter the database name and choose Create to create a new Database.
+1. Select "Mới", then enter the database name and choose "Tạo" to create a new Database.
 
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/phpadmin2.png)
 
-2. After successfully creating the database, select the SQL item on the taskbar to import the data file downloaded from the link: [oneDrive_IS207.O12_Nhom15](https://uithcm-my.sharepoint.com/:u:/g/personal/20521825_ms_uit_edu_vn/EbVoMIbxcWhPlCmj7U7OFAUBhdubm-MLDvPNPu8HNg6ghA?e=gyxTUn), or access the link (https://uithcm-my.sharepoint.com/:u:/g/personal/20521825_ms_uit_edu_vn/EbVoMIbxcWhPlCmj7U7OFAUBhdubm-MLDvPNPu8HNg6ghA?e=gyxTUn) if an error occurs. Then, select Go to execute the SQL commands.
+2. After successfully creating the database, select the SQL item on the taskbar to import the data file downloaded from (https://drive.google.com/file/d/17pX4tQc3gcno2J1r1P4EzyMucTg8AO45/view?usp=sharing) if an error occurs. Then, select "Thực hiện" to execute the SQL commands.
 
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/phpadmin3.png)
 
@@ -65,7 +65,7 @@ The database, after being successfully imported, will have a structure with 6 ta
 
 ### 2.1.2. Setup Source Code of the Project
 
-Clone the project from the team's Github Repository: [IS207.O12_Nhom15](https://github.com/TruongLeDuy123/intern_assignment)
+Clone the project from the team's Github Repository: [Intern_Assignment](https://github.com/TruongLeDuy123/intern_assignment)
 
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/setup1.png)
 
