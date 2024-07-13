@@ -1,66 +1,132 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 1. INSTALLING REQUIRED ENVIRONMENTS
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+*Note: The installation guide below is applicable for the Windows operating system.*
 
-## About Laravel
+## 1.1 Install XAMPP - Including Apache, PHP, MySQL
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1. Download and install the XAMPP software package from [XAMPP Installers and Downloads](https://www.apachefriends.org/index.html).
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+2. After installation, open the XAMPP Control Panel to manage services.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![XAMPP](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/xampp1.png)
 
-## Learning Laravel
+3. The XAMPP Control Panel will display services such as:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+   - **Apache:** Web server service.
+   - **MySQL:** Database management system.
+   - (Other services if available).
+4. Start Apache and MySQL through the XAMPP Control Panel (Actions Start on the XAMPP Control Panel).
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+5. Open a web browser and check the URL http://localhost:3000.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![XAMPP](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/xampp2.png)
+**Note:** Adjust the port according to your device.
 
-## Laravel Sponsors
+## 1.2 Install Composer
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+1. Download and run the Composer-Setup.exe file to install Composer on your computer via the link: [Composer](https://getcomposer.org/)
 
-### Premium Partners
+2. After installation, check the installation via the Windows Command Line or Git Bash with the command 'composer'.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+![Composer Installation Success](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/composer1.png)
+*Composer Installation Success*
 
-## Contributing
+## 1.3 Install Related Extensions on VS Code
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Install 2 PHP support extensions for VS Code as follows:
 
-## Code of Conduct
+![Extension](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/extension1.png)
+![Extension](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/extension2.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+# 2. SETUP PROJECT AND RUN
+## 2.1. Setup Project:
+### 2.1.1. Setup Data on MySQL via XAMPP
 
-## Security Vulnerabilities
+In the XAMPP Control Panel, run the Admin mode of MySQL after 'starting' MySQL by clicking the Admin button on the XAMPP Control Panel.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/xampp3.png)
 
-## License
+On the browser, with the URL localhost, the screen will appear as follows:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/phpadmin1.png)
+
+Create a new database with the following steps:
+1. Select New, then enter the database name and choose Create to create a new Database.
+
+![](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/phpadmin2.png)
+
+2. After successfully creating the database, select the SQL item on the taskbar to import the data file downloaded from the link: [oneDrive_IS207.O12_Nhom15](https://uithcm-my.sharepoint.com/:u:/g/personal/20521825_ms_uit_edu_vn/EbVoMIbxcWhPlCmj7U7OFAUBhdubm-MLDvPNPu8HNg6ghA?e=gyxTUn), or access the link (https://uithcm-my.sharepoint.com/:u:/g/personal/20521825_ms_uit_edu_vn/EbVoMIbxcWhPlCmj7U7OFAUBhdubm-MLDvPNPu8HNg6ghA?e=gyxTUn) if an error occurs. Then, select Go to execute the SQL commands.
+
+![](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/phpadmin3.png)
+
+The database, after being successfully imported, will have a structure with 13 tables as follows:
+
+![](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/phpadmin4.png)
+
+### 2.1.2. Setup Source Code of the Project
+
+Clone the project from the team's Github Repository: [IS207.O12_Nhom15](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15)
+
+![](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/setup1.png)
+
+## 2.2. Run the Web Application
+
+In the VS Code Terminal, run the command 'php artisan serve' to start running the web application. The URL of the web application when started will be displayed on the terminal. Hold down the Ctrl key and click on the URL to open the web application in the browser.
+
+![](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/setup2.png)
+
+The web application after starting:
+
+![](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/web1.png)
+
+Switching between admin and customer interfaces is done by logging in. On the landing page, select the user icon to go to the login page. If the user logs in with an admin account, the web application will go to pages specific to the admin role. If the user logs in with a customer account, the web application will continue in the customer role.
+
+![](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/web2.png)
+
+Here is the screen when the user is in the admin role after logging in with an admin account:
+
+![](https://github.com/myphuong92/IS207.O12_PhatTrienUngDungWeb_Nhom15/blob/main/readme%20source/img/web3.png)
+
+# 3. SYSTEM LOGIN ACCOUNTS
+## 3.1. Admin Accounts
+
+| Login Email | Password | 
+|-------|-------|
+| tthieu@gmail.com | 20520508 | 
+| tnmphuong@gmail.com | 20521779 |
+| dtquynh@gmail.com | 20521825 | 
+| ldtruong@gmail.com | 20522083 | 
+
+## 3.2. Customer Accounts
+
+| Login Email | Password | 
+|-------|-------|
+| nga.duongtthu@gmail.com | 12345678 | 
+| ngoxuanbinh54@gmail.com | 12345678 |
+| phuong@ptcrance.com.vn | 12345678 | 
+
+# 4. SUMMARY OF FUNCTIONS IN PROJECT
+## 4.1. Customer’s Function:
+-	Login and Register.
+-	Display outstanding information including: product categories, best-selling products.
+-	Displays a list of available store products, including functions such as lookup, filtering, classification, etc...
+-	Display product details, and a list of similar products.
+-	Display shopping and staff information.
+-	Display the customer's shopping cart.
+-	Display bill details before payment and select promotions.
+-	Payment with Paypal.
+-	Display user information, function to update user profile, change password, view order information and log out of the system.
+-	The contact between admin and users using chatbot.
+## 4.2. Admin’s Function:
+-	Login.
+-	Product information management: show, create, detail, edit, delete.
+-	Customer information management:  show, detail.
+-	Staff information management: show, create, detail, edit, delete.
+-	Promotion information management: show, create, detail, edit, delete.
+-	Bill information management: show, detail, edit, export bill list to excel
+-	Represent shopping revenue through a chart.
+-	The contact between admin and users using chatbot.
+
+# Video demo
+
+Access to this (https://drive.google.com/file/d/10LEg-9Zi3JUrQN0ggkx_7EELY5or9j0O/view?usp=sharing) for our demo
