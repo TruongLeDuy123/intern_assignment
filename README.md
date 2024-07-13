@@ -59,7 +59,7 @@ Create a new database with the following steps:
 
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/phpadmin3.png)
 
-The database, after being successfully imported, will have a structure with 13 tables as follows:
+The database, after being successfully imported, will have a structure with 6 tables as follows:
 
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/phpadmin4.png)
 
@@ -78,11 +78,6 @@ In the VS Code Terminal, run the command 'php artisan serve' to start running th
 The web application after starting:
 
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/web1.png)
-
-Switching between admin and customer interfaces is done by logging in. On the landing page, select the user icon to go to the login page. If the user logs in with an admin account, the web application will go to pages specific to the admin role. If the user logs in with a customer account, the web application will continue in the customer role.
-
-![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/web2.png)
-
 
 # Link demo
 Access to this (https://drive.google.com/file/d/10LEg-9Zi3JUrQN0ggkx_7EELY5or9j0O/view?usp=sharing) for my demo
