@@ -55,7 +55,7 @@ Create a new database with the following steps:
 
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/phpadmin2.png)
 
-2. After successfully creating the database, select the SQL item on the taskbar to import the data file downloaded from (https://drive.google.com/file/d/17pX4tQc3gcno2J1r1P4EzyMucTg8AO45/view?usp=sharing) if an error occurs. Then, select "Thực hiện" to execute the SQL commands.
+2. After successfully creating the database, select the SQL item on the taskbar to import the data file downloaded from (https://drive.google.com/file/d/17pX4tQc3gcno2J1r1P4EzyMucTg8AO45/view?usp=sharing). Then, select "Thực hiện" to execute the SQL commands.
 
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/phpadmin3.png)
 
