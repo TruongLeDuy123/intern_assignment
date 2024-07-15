@@ -69,6 +69,31 @@ Clone the project from the team's Github Repository: [Intern_Assignment](https:/
 
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/setup1.png)
 
+### 2.1.3. Setup file .env
+Rename the .env.example file to .env. Then, add a few more parameters as follows
+- **MAIL_MAILER**=smtp
+- **MAIL_HOST**=smtp.gmail.com
+- **MAIL_PORT**=587
+- **MAIL_USERNAME**=your_email
+- **MAIL_PASSWORD**="your_password"
+- **MAIL_ENCRYPTION**=tls
+- **MAIL_FROM_ADDRESS**="your_email"
+- **MAIL_FROM_NAME**="${APP_NAME}"
+- **WEATHER_API_KEY:** get API from https://www.weatherapi.com (Create a new account and get a new api key)
+To get Mail Password, you can:
+1. Create a gmail account OR login with the gmail account.
+2. Go to your Google Account.
+3. Select Security Tab.
+4. Move to  "Signing in to Google", Setup the 2 Step Verification (You may need to sign in and verify your account) and make to ON and then you will get an options for App Password as shown below. Select App Passwords. You may need to sign in. 
+![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/step1.png)
+5. At the bottom, choose Select app and choose the app you using and then Select device and choose the device you’re using and then Generate.
+![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/step2.png)
+On Select app: Select as Mail & on Select Device: Other (Custom Name) Eg: myWebsiteApplicationName.
+6. Follow the instructions to enter the App Password. The App Password is the 16-character code in the yellow bar on your device.
+![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/step3.png)
+Note: Copy your 16-Digital App Password and save it for your further use.
+7. Tap Done.
+
 ## 2.2. Run the Web Application
 
 In the VS Code Terminal, run the command 'php artisan serve' to start running the web application. The URL of the web application when started will be displayed on the terminal. Hold down the Ctrl key and click on the URL to open the web application in the browser.
