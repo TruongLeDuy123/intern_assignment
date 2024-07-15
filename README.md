@@ -87,10 +87,14 @@ To get Mail Password, you can:
 3. Select Security Tab.
 4. Move to  "Signing in to Google", Setup the 2 Step Verification (You may need to sign in and verify your account) and make to ON and then you will get an options for App Password as shown below. Select App Passwords. You may need to sign in. 
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/step1.png)
+
 5. At the bottom, choose Select app and choose the app you using and then Select device and choose the device you’re using and then Generate.
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/step2.png)
+
 On Select app: Select as Mail & on Select Device: Other (Custom Name) Eg: myWebsiteApplicationName.
+
 6. Follow the instructions to enter the App Password. The App Password is the 16-character code in the yellow bar on your device.
+
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/step3.png)
 Note: Copy your 16-Digital App Password and save it for your further use.
 7. Tap Done.
