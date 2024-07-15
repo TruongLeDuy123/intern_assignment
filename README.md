@@ -70,7 +70,7 @@ Clone the project from the team's Github Repository: [Intern_Assignment](https:/
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/setup1.png)
 
 ### 2.1.3. Setup file .env
-Rename the .env.example file to .env. Then, add a few more parameters as follows
+Rename the .env.example file to .env. Then, add a few more parameters as follows:
 - **MAIL_MAILER**=smtp
 - **MAIL_HOST**=smtp.gmail.com
 - **MAIL_PORT**=587
@@ -80,6 +80,7 @@ Rename the .env.example file to .env. Then, add a few more parameters as follows
 - **MAIL_FROM_ADDRESS**="your_email"
 - **MAIL_FROM_NAME**="${APP_NAME}"
 - **WEATHER_API_KEY:** get API from https://www.weatherapi.com (Create a new account and get a new api key)
+
 To get Mail Password, you can:
 1. Create a gmail account OR login with the gmail account.
 2. Go to your Google Account.
