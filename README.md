@@ -97,6 +97,7 @@ On Select app: Select as Mail & on Select Device: Other (Custom Name) Eg: myWebs
 
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/step3.png)
 Note: Copy your 16-Digital App Password and save it for your further use.
+
 7. Tap Done.
 
 ## 2.2. Run the Web Application
@@ -109,5 +110,3 @@ The web application after starting:
 
 ![](https://github.com/TruongLeDuy123/intern_assignment/blob/main/readme%20source/img/web1.png)
 
-# Link demo
-Access to this (https://drive.google.com/file/d/10LEg-9Zi3JUrQN0ggkx_7EELY5or9j0O/view?usp=sharing) for my demo
